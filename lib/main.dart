@@ -1,5 +1,8 @@
 import 'package:background_services/home_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:workmanager/workmanager.dart';
 
 void callbackDispatcher() {
@@ -8,6 +11,9 @@ void callbackDispatcher() {
     return Future.value(true);
   });
 }
+
+// flutterLocalNotificationsPlugin.resolvePlatformSpecificImplementation<
+//     AndroidFlutterLocalNotificationsPlugin>().requestPermission();
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
