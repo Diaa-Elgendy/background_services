@@ -15,6 +15,7 @@ dependencies:
   cupertino_icons: ^1.0.5
   workmanager: ^0.5.1
   location: ^4.4.0
+  flutter_background_service: ^2.4.6
 #  geolocator: ^9.0.2
   flutter_local_notifications: ^14.0.0+1
 #  background_location: ^0.8.1
